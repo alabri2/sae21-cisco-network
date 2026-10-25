@@ -81,7 +81,7 @@ The network is organized in layers: the internal VLANs connect through access sw
 3. **DMZ + ISP router** — the public web and DNS servers in the DMZ, with the ISP (FAI) router.
 4. **Public network + NAT** — Internet interconnection and NAT so the internal network reaches the outside and the DMZ server is reachable from outside.
 
-Full command-by-command configuration and connectivity tests are in the [report](docs/rapport.pdf).
+Full command-by-command configuration and connectivity tests are in the [report](rapport.pdf).
 
 ## 🚀 How to open
 
@@ -96,10 +96,7 @@ Supervisors: Michael Lance, Guillaume Urvoy-Keller.
 
 ## 📚 Documentation
 
-- 📄 [Full technical report](docs/rapport.pdf) — topology, addressing plan, step-by-step configuration, and validation tests.
+- 📄 [Full technical report](rapport.pdf) — topology, addressing plan, step-by-step configuration, and validation tests.
 
-## 📄 License
-
-Distributed under the **MIT** license — see [LICENSE](LICENSE).
 
 <sub>Addresses such as 1.1.1.1 and 8.8.8.x are used only inside this isolated Packet Tracer simulation for teaching purposes.</sub>
