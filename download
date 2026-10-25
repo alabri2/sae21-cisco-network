@@ -1,0 +1,8 @@
+# Packet Tracer autosave / backup
+*.pkt.bak
+*~
+# Packet Tracer logs
+*.ptlog
+# OS / editors
+.DS_Store
+Thumbs.db
