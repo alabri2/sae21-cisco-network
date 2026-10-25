@@ -34,7 +34,7 @@ Key building blocks:
 ## 🗺️ Network topology
 
 <p align="center">
-  <img src="docs/topologie.png" alt="Global network topology" width="760">
+  <img src="topologie.png" alt="Global network topology" width="760">
 </p>
 
 The network is organized in layers: the internal VLANs connect through access switches to a central Layer-3 switch, which routes between VLANs and connects to the **ASA firewall**. The ASA separates the **inside** (company), the **DMZ** (public servers), and the **outside** (ISP). The ISP router then connects to the Internet and to an external test network used to validate access to the DMZ.
